@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+
+section{
+    width: 85%;
+    max-width: 1320px;
+    margin: 50px 120px 120px 120px;
+
+}
+.main{
+    background-image: url('image/Banner-Image.png');
+    height: 600px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+}
+.main .continer{
+    margin: auto;
+}
+
+.main .continer h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.main .continer p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    margin: auto;
+}
+
+.winter{
+    margin: 120PX auto;
+    
+}
+
+.futer h1{
+    color: red;
+    text-align: center;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+.winter .futer p{
+    color: #f00;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 48px;
+
+}
+.winter .futer-section h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+.winter .futer-section img{
+    margin-top: 48ox;
+    margin-left: 279px;
+    margin-right: 278px;
+
+}
+
+.national{
+    background-image: url('image/Vectorrr.png');
+    background-repeat: no-repeat;
+    
+    
+}
+
+.future{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+    margin: 120px 80px;
+}
+
+
+.future .title h1{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-left: 46px;
+    
+}
+.future .title p{
+    color: floralwhite;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-left: 46px;
+
+}
+.future .title button{
+    color: rgb(255, 0, 0);
+    background-color: aqua;
+    border-radius: 10px;
+    border: none;
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 48px;
+    margin-left: 78px;
+    margin-bottom: 22px;
+    padding: 12px 24px;
+}
+
+.future .title button:hover{
+    background-color: rgb(234, 146, 146);
+    color: rgb(0, 28, 240);
+}
+
+.future .title-img{
+    margin-top: -52px;
+    margin-bottom: -53px;
+    
+}
+
+.jumona{
+    background-color: aliceblue;
+    justify-content: space-between;
+    height: 482px;
+    margin: 100px 40px 110px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.jumona .jumona-text h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.jumona .jumona-text p{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.jumona .jumona-text .amar{
+    color: rgb(0, 0, 0);
+}
+
+.jumona .jumona-text button{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 10px;
+    background-color: #f00;
+    border-radius: 8px;
+    margin-top: 48px;
+    margin-right: 457px;
+    margin-left: 446px;
+    margin-bottom: 110px;
+}
+
+
+.got-father .father{
+    display: flex;
+    background-color: antiquewhite;
+    height: 370px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.father .child-a{
+    margin-right: 70px;
+}
+
+.father .child-b{
+    margin-right: 70px;
+}
+.father .child-a h3{
+    color: #f00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.father .child-a h1{
+    color: black;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.father .child-a p{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 22px;
+
+}
+.father .child-c h1{
+    color: #f00;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 62px;
+}
+.father .child-c p{
+    color: black;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.father .child-c img{
+    margin-top: 43px;
+    margin-right: 136px;
+}
+.father .child-b{
+    background-color: rgb(255, 0, 0);
+    border-radius: 463px;
+}
+.father .child-ab{
+    background-color: #fffafa;
+}
+
+.hello-text .hello h3{
+    color: rgb(2, 27, 250);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.hello-text .hello h1{
+    color: red;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.hello-text .hello p{
+    color: rgb(2, 225, 255);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+}
+.hello-text .hello span{
+    color: black;
+}
+/*cooment*/
+.image-baground{
+    display: flex;
+    height: 662px;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-all{
+    background-color: #f00;
+    height: 229px;
+    align-items: center;
+    margin-top: px;
+}
+
+.image-baground .image-b{
+
+}
+/*cooment*/
+
+
+.section-text h3{
+    color: #f00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.section-text h1{
+    color: black;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.section-text p{
+    color: black;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+
+.imege-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 48px;
+    
+}
+.imeges{
+    width: 32.5%;
+}
+.imeges img{
+    width: 100%;
+
+}
+.imeges button:hover{
+background-color: #033eff;
+border-radius: 10px;
+}
+
+.imeges button{
+    margin-bottom: 22px;
+    border-radius: 18px;
+
+}
