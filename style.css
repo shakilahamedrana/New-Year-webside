@@ -353,5 +353,119 @@ border-radius: 10px;
 .imeges button{
     margin-bottom: 22px;
     border-radius: 18px;
-
+}
+.my-class{
+    background-color: rgb(50, 130, 200);
+}
+.message-contener{
+    justify-content: space-between;
+    align-items: center;
+    height: 616px;
+    margin: 80px 212px;
+}
+.my-class .message-contener .message-imagr img{
+    margin-top: 80px;
+    margin-left: 320px;
+    margin-bottom: 40px;
+}
+.my-class .message-contener .message-text h1{
+    color: black;
+    font-size: 48px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 40px 128px 0;
+}
+.my-class .message-contener .message-text p{
+    color: #f00;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400px;
+    text-align: center;
+    margin: 22px 0px 48px 0px;
+}
+.my-class .message-contener form{
+    max-width: 1320px;
+    height: 50px;
+    margin: 48px 65px 80px 65px;
+    display: flex;
+}
+.my-class .message-contener form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 16px 0 0 16px;
+    padding: 10px;
+    font-size: 21px;
+    font-weight: 600;
+}
+.my-class .message-contener form button{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: normal;
+    font-style: normal;
+    text-transform: capitalize;
+    padding: 12px 56px;
+    border-radius: 0 16px 16px 0;
+    border: none;
+    background-color: red;
+}
+.my-class .message-contener form button:hover{
+    outline: 2px solid navy;
+    background-color: black;
+    color: #fff;
+    border-radius: 16px;
+}
+.my-class .message-contener form input:hover{
+    outline: 2px solid navy;
+    background-color: aqua;
+    border-radius: 16px;
+}
+footer{
+    background-color: black;
+    height: 609px;
+    max-width: 1600px;
+}
+.footer-continer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text p{
+    color: #ffff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 120px;
+}
+.footer-text h1{
+    color: #ffff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.footer-section .line h2{
+    border-bottom: 1px;
+    border-color: rgb(218, 132, 132);
+    border-style: solid;
+    margin-top: 50px;
+}
+.imaged .abc{
+    margin-top: 120px;
+    margin-left: 500px;
+    background-color: rgb(240, 199, 199);
+    text-decoration: none;
+}
+.md-rana{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-textd{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 50px;
 }
